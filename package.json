@@ -1,0 +1,19 @@
+{
+  "name": "@pietermarsman/node-red-contrib-fade-in-and-out",
+  "version": "1.0.0",
+  "description": "Node red node for fading in and out",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": "https://github.com/pietermarsman",
+  "license": "ISC"
+  "node-red": {
+      "nodes": {
+          "fade-in-and-out": "fade-in-and-out.js"
+      }
+  }
+}
