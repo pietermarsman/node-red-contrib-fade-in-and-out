@@ -1,10 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<script type="text/javascript">
+  RED.nodes.registerType('fade-in-and-out',{
+    category: 'function',
+    color: '#a6bbcf',
+    defaults: {
+      name: {value:""}
+    },
+    inputs: 1,
+    outputs: 1,
+    icon: "file.svg",
+    label: function() {
+      return this.name||"lower-case";
+    }
+  });
+</script>
 
-</body>
-</html>
+<script type="text/html" data-template-name="lower-case">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="lower-case">
+    <p>Node red node for fading in and out</p>
+</script>
