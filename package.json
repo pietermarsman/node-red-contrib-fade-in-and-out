@@ -10,10 +10,10 @@
     "node-red"
   ],
   "author": "https://github.com/pietermarsman",
-  "license": "ISC"
+  "license": "ISC",
   "node-red": {
-      "nodes": {
-          "fade-in-and-out": "fade-in-and-out.js"
-      }
+    "nodes": {
+      "fade-in-and-out": "fade-in-and-out.js"
+    }
   }
 }
